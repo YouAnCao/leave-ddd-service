@@ -16,6 +16,7 @@ public class ApplicantAssembler {
         Applicant applicant = new Applicant();
         applicant.setPersonId(dto.getPersonId());
         applicant.setPersonName(dto.getPersonName());
+        applicant.setPersonType(dto.getApplicantType());
         return applicant;
     }
 

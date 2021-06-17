@@ -4,7 +4,10 @@ import ddd.leave.domain.leave.entity.valueobject.Applicant;
 import ddd.leave.domain.leave.entity.valueobject.Approver;
 import ddd.leave.domain.leave.entity.valueobject.LeaveType;
 import ddd.leave.domain.leave.entity.valueobject.Status;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -14,6 +17,9 @@ import java.util.List;
  * 请假单信息
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Leave {
 
     private String id;
