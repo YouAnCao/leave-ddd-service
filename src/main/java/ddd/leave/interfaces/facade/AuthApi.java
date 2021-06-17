@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.text.ParseException;
 
+/**
+ * 权限 用户接口层
+ * 传统DDD 实现案例
+ */
 @RestController
 @Slf4j
 public class AuthApi {

@@ -12,6 +12,10 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * 请假 用户接口层
+ * 传统DDD 实现案例
+ */
 @RestController
 @Slf4j
 public class LeaveApi {
